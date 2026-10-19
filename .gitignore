@@ -1,0 +1,26 @@
+# Never commit local environments, private material or generated builds
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+target/
+*.exe
+*.msi
+*.zip
+*.7z
+private/
+internal/
+local/
+secrets/
